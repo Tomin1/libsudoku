@@ -170,7 +170,7 @@ def process(string:str, args:"Namespace"):
                 output(sudoku_, args.printer, args.separator, args.output, args)
                 i += 1
         else:
-            output(sudoku_, args.printer, args.separator, args.output, args)
+            output(sudoku, args.printer, args.separator, args.output, args)
 
 def main(*args):
     args = parse_arguments(*args)
